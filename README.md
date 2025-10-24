@@ -6,14 +6,16 @@ This repository contains all material and projects i personally used at my schoo
 This repo is orginized as such that every folder has a different theme:
 ```
 /School
-├── Java
-│ └── ...
-├── # C++
-│ └── ...
-├── # Python
-│ └── ...
-├── LICENSE
-└── README.md
+├── Informatic
+│   ├── # C++
+│   │ └── ...
+│   ├── # Python
+│   │ └── ...
+│   ├── # Java
+│     └── ...
+│
+├── README.md
+└── LICENSE
 ```
 
 ## 🧠 What are you going to find?
