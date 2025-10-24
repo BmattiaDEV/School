@@ -1,4 +1,4 @@
-# School
+# 🏫 School
 This repository contains all material and projects i personally used at my school IIS Corni, wrote in **C++**, **Python**, **Java** and more (in the future).
 
 ## 📂 Structure
