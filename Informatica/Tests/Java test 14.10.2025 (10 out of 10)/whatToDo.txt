@@ -1,0 +1,61 @@
+Gestione Menu Ristorante 📜
+
+Obiettivo: Realizzare due classi, Piatto e Menu, per gestire la composizione di un menu. La classe Menu sarà composta da quattro oggetti di tipo Piatto.
+
+Parte 1: La Classe Piatto 🍽️
+
+Definisci una classe immutabile Piatto per rappresentare una singola portata.
+
+Attributi (privati):
+
+ * nome (String)
+
+ * descrizione (String)
+
+ * prezzo (double)
+
+ * isVegetariano (boolean)
+
+Metodi da implementare:
+
+ * Un costruttore per inizializzare tutti gli attributi.
+
+ * I metodi get per tutti gli attributi.
+
+ * getPrezzoIvato(int percentualeIva): Restituisce il prezzo del piatto aggiungendo l'IVA specificata.
+
+ * toString(): Restituisce una stringa che descrive il piatto. Esempio: "Risotto ai funghi (€ 13.00) - Riso Carnaroli, funghi porcini freschi".
+
+Parte 2: La Classe Menu 📜
+
+Definisci una classe Menu che raggruppa sempre un antipasto, un primo, un secondo e un dessert.
+
+Attributi (privati):
+
+ * nomeMenu (String)
+
+ * antipasto (di tipo Piatto)
+
+ * primo (di tipo Piatto)
+
+ * secondo (di tipo Piatto)
+
+ * dessert (di tipo Piatto)
+
+Metodi da implementare:
+
+ * Un costruttore per inizializzare tutti gli attributi.
+
+ * I metodi get e set per tutti gli attributi.
+
+ * calcolaPrezzoTotale(): Restituisce la somma dei prezzi dei quattro piatti.
+
+ * calcolaPrezzoScontato(double percentualeSconto): Calcola il prezzo totale del menu applicando la percentuale di sconto fornita.
+
+ * isMenuVegetariano(): Restituisce true solo se tutti e quattro i piatti del menu sono vegetariani.
+
+ * toString(): Restituisce una descrizione completa del menu.
+
+Parte 3: Test e Verifica (TestRistorante)
+
+Crea una classe TestRistorante con un metodo main per verificare il corretto funzionamento del programma.
